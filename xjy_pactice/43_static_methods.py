@@ -2,6 +2,12 @@ class Count:
     def __init__(self, *args):
         li = args
         print(len(li))
+        self.prompt = 'counter'
+
+    def __str__(self):
+        return self.prompt
+
+
 
 
 class Word(str):
@@ -26,6 +32,7 @@ class Word(str):
 
 if __name__ == '__main__':
     c = Count(1, 2, 3)
+    print(c)
     aw = Word('abcd')
     bw = Word('efg hij')
     print(aw > bw)
