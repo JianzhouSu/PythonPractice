@@ -2,7 +2,7 @@ class Count:
     def __init__(self, *args):
         li = args
         print(len(li))
-        self.prompt = 'counter'
+        self.prompt = 'counters'
 
     def __str__(self):
         return self.prompt
