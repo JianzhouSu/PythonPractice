@@ -8,6 +8,4 @@ def twoSum(nums, target):
             get_key[nums[i]] = i
 
 
-
-
 a = twoSum([2, 7, 14, 15], 17)
